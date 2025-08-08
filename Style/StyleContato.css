@@ -1,0 +1,92 @@
+ :root {
+   --cinza-letras: rgb(71, 68, 68);
+   --cinza-letras-claro: rgb(136, 136, 136);
+   --cinza-botao: rgb(59, 56, 56);
+   --preto: black;
+   --branco: white;
+   --fundo-contato: rgb(248, 247, 247);
+   --font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family);
+}
+
+body {
+  background: var(--branco);
+  color: #333;
+  width: 70%;
+  max-width: 1075px;
+  margin: 0 auto;
+}
+
+.cabecalho {
+  margin-top: 6vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titulo-cabecalho {
+  text-decoration: none;
+  font-size: 35px;
+  font-weight: bolder;
+  color: var(--preto);
+}
+
+.cabecalho-navegacao-links {
+  text-decoration: none;
+  margin-left: 1.5vh;
+  font-size: 20px;
+  color: var(--preto);
+}
+
+.section-principal, .container {
+  margin-top: 23vh; 
+}
+
+ .form-container {
+   background: var(--branco);
+   max-width: 500px;
+   margin: 45px auto;
+   padding: 30px;
+   border-radius: 10px;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+ }
+
+ h2 {
+   text-align: center;
+   margin-bottom: 20px;
+ }
+
+ label {
+   display: block;
+   margin-bottom: 5px;
+   font-weight: bold;
+ }
+
+ input,
+ textarea {
+   width: 100%;
+   padding: 10px;
+   margin-bottom: 15px;
+   border-radius: 5px;
+   border: 1px solid #ccc;
+   resize: vertical;
+ }
+
+ button {
+   width: 100%;
+   background-color: var(--cinza-letras);
+   color: white;
+   padding: 12px;
+   border: none;
+   border-radius: 5px;
+   font-size: 16px;
+   cursor: pointer;
+ }
+
+ button:hover {
+   background-color: var(--cinza-botao);
+ }

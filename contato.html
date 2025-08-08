@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nicolly Ramos</title>
+  <link rel="stylesheet" href="Style/StyleContato.css">
+
+</head>
+
+<body>
+  <header class="cabecalho">
+    <a class="titulo-cabecalho" class="cabecalho-navegacao-links" href="Index.html">Nicolly Ramos</a>
+    <nav class="cabecalho-navegacao">
+      <a class="cabecalho-navegacao-links" href="Sobre.html">Sobre</a>
+      <a class="cabecalho-navegacao-links" href="formacao.html">Formação</a>
+      <a class="cabecalho-navegacao-links" href="Projetos.html">Projetos</a>
+      <a class="cabecalho-navegacao-links" href="contato.html">Contato</a>
+    </nav>
+  </header>
+  <div class="form-container">
+    <h2>Entre em Contato</h2>
+    <form action="mailto:seuemail@exemplo.com" method="POST" enctype="text/plain">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="assunto">Assunto:</label>
+      <input type="text" id="assunto" name="assunto">
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+</body>
+
+</html>
